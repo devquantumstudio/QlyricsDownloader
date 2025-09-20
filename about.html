@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="About Qlyrics Downloader: what it is, how it works, and our principles." />
+		<meta property="og:title" content="Qlyrics Downloader — Official" />
+		<meta property="og:description" content="About Qlyrics Downloader." />
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="https://devquantumstudio.github.io/QlyricsDownloader/assets/img/Qlyrics_image.png" />
+		<meta property="og:url" content="https://devquantumstudio.github.io/QlyricsDownloader/" />
+		<meta name="theme-color" content="#22d3ee" />
+		<title>About • Qlyrics Downloader</title>
+		<link rel="canonical" href="https://devquantumstudio.github.io/QlyricsDownloader/" />
+		<link rel="icon" type="image/png" href="assets/img/Qlyrics_logo.png" />
+		<link rel="icon" type="image/x-icon" href="assets/img/Qlyrics.ico" />
+		<link rel="stylesheet" href="assets/css/style.min.css" />
+		<style>
+			.link {
+			    text-decoration: none;
+			    color: #22d3ee;
+			    font-weight: bold;
+			}
+		</style>
+	</head>
+	<body>
+		<a class="visually-hidden" href="#main">Skip to main content</a>
+
+		<header>
+			<div class="container nav" role="navigation" aria-label="Primary">
+				<a class="brand" href="index.html" aria-label="Homepage">
+					<img class="logo" src="assets/img/Qlyrics_logo.png" width="32" height="32" alt="" />
+					<span>Qlyrics Downloader</span>
+				</a>
+
+				<nav class="links" aria-label="Site">
+					<a href="index.html">Home</a>
+					<a href="#main" aria-current="page">About</a>
+					<a href="faq.html">FAQ</a>
+					<a href="contact.html">Contact</a>
+					<a class="nav-cta" href="https://ko-fi.com/devquantumstudio" target="_blank" rel="noopener noreferrer">Donate</a>
+				</nav>
+
+				<button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileMenu" aria-label="Toggle menu">
+					<svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+						<path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+					</svg>
+				</button>
+			</div>
+		</header>
+
+		<main id="main" class="container">
+			<section class="hero card">
+				<h1>About This Project</h1>
+				<p>
+					<small>Last updated: <time id="lastUpdated"></time></small>
+				</p>
+				<p>
+					<strong>Qlyrics Downloader</strong> is a free, lightweight application designed to fetch synced or unsynced lyrics in LRC format from supported sources. It’s built to be <em>fast</em>, <em>clean</em>, and
+					<em>private</em> — no accounts, no ads, and no trackers.
+				</p>
+			</section>
+
+			<section class="card" style="margin-inline: auto; margin-top: 30px; padding-left: 30px; padding-right: 30px;">
+				<h2>What We Believe</h2>
+				<ul>
+					<li><strong>Free &amp; non-monetized:</strong> You can use the app without paying. Donations are optional and never required.</li>
+					<li><strong>Privacy first:</strong> We don’t collect data, use cookies, or integrate with analytics platforms.</li>
+					<li><strong>Minimal footprint:</strong> Lightweight interface, no bloat, no pop-ups, no distractions.</li>
+				</ul>
+
+				<h2>How It Works</h2>
+				<ol>
+					<li>Drop an audio file or browse to select one.</li>
+					<li>Check the box to prefer synced LRC (if available).</li>
+					<li>Click <strong>Download Lyrics</strong>. The lyrics will appear below with timestamps (if synced).</li>
+				</ol>
+				<p><em>Tip:</em> For best results, ensure you provide accurate song metadata.</p>
+
+				<h2>What We Don’t Do</h2>
+				<ul>
+					<li>No ads, no cookies, no tracking scripts.</li>
+					<li>No user accounts and no personal data collection.</li>
+					<li>No uploading or storing of your audio files.</li>
+				</ul>
+
+				<h2>Respectful &amp; Lawful Use</h2>
+				<p>
+					This app is intended for users who wish to download lyrics for personal or lawful use, such as music study, karaoke, or accessibility purposes. You are responsible for how you use the app and must comply with applicable
+					laws and terms of service.
+				</p>
+				<p><strong>Prohibited:</strong> using the app to distribute copyrighted lyrics without permission, scraping restricted content, or violating any intellectual property laws.</p>
+
+				<h2>Donations</h2>
+				<p>
+					This is a community-driven project provided free of charge. If you find it helpful, feel free to support us with a voluntary donation via our
+					<a class="link" href="https://ko-fi.com/devquantumstudio" target="_blank" rel="noopener noreferrer">donation page</a>. 
+					Donations are voluntary gifts, not payments for a service.
+				</p>
+
+				<h2>App &amp; Tech</h2>
+				<ul>
+					<li>Runs as a standalone app — no browser required.</li>
+					<li>Fully self-contained: no plugins, extensions, or add-ons needed.</li>
+					<li>Cross-platform: available for Windows and Android.</li>
+					<li>Privacy-respecting: no accounts, analytics, or third-party ads.</li>
+				</ul>
+
+				<h2>Contact</h2>
+				<p>Questions or feedback? Contact us <a class="link" href="contact.html">here</a>.</p>
+
+				<p class="mt-4">
+					<small>For legal and usage terms, please read our <a class="link" href="terms.html">Terms &amp; Conditions</a> and <a class="link" href="privacy.html">Privacy Policy</a>.</small>
+				</p>
+			</section>
+		</main>
+
+		<footer>
+			<div class="container foot">
+				<small>© <span id="year"></span> DevQuantum Studio. All rights reserved.</small>
+				<div class="foot-links">
+					<a id="privacy" href="privacy.html">Privacy Policy</a>
+					<a id="terms" href="terms.html">Terms &amp; Conditions</a>
+				</div>
+			</div>
+		</footer>
+
+		<script>
+			const btn = document.getElementById('menuBtn');
+			btn?.addEventListener('click', () => {
+			  const open = document.body.classList.toggle('nav-open');
+			  btn.setAttribute('aria-expanded', String(open));
+			});
+			window.addEventListener('keydown', (e) => {
+			  if (e.key === 'Escape') {
+			    document.body.classList.remove('nav-open');
+			    btn?.setAttribute('aria-expanded', 'false');
+			  }
+			});
+			document.getElementById('year').textContent = new Date().getFullYear();
+			document.getElementById('lastUpdated').textContent = new Date().toLocaleDateString(undefined, {
+			  year: 'numeric', month: 'long', day: 'numeric'
+			});
+		</script>
+	</body>
+</html>
